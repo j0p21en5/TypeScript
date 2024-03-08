@@ -5,3 +5,9 @@ enum Role{
 console.log(Role);
 
 console.log(Role.FACULTY);
+
+enum Member{
+    teacher,madam,sir
+}
+
+console.log(Member);

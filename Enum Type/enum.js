@@ -7,3 +7,10 @@ var Role;
 })(Role || (Role = {}));
 console.log(Role);
 console.log(Role.FACULTY);
+var Member;
+(function (Member) {
+    Member[Member["teacher"] = 0] = "teacher";
+    Member[Member["madam"] = 1] = "madam";
+    Member[Member["sir"] = 2] = "sir";
+})(Member || (Member = {}));
+console.log(Member);
