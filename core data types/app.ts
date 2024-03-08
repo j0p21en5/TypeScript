@@ -5,6 +5,8 @@ function dummy(a:string){
 let result = dummy('hello')
 
 console.log(result);
+
+
 function add(c,d){
     return c+d;
 
