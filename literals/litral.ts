@@ -12,7 +12,7 @@ function combine (a : string| number ,b:string | number , type : "as-number"| "a
 
     {
         return (+a)+(+b);
-
+ 
     }
 
     else{
